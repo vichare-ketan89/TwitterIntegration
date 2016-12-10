@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/tw__blue_default</color>
+    <color name="colorPrimaryDark">@color/tw__blue_pressed</color>
+    <color name="colorAccent">@color/tw__blue_pressed_light</color>
+</resources>

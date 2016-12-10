@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keto.twitterintegration">
+
+    <application
+        android:name=".util.TwitterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.FirstActivity"
+            android:label="Login to Twitter"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="cc4a1e9dafdbb14f3ffb6e023af0d0825e577827" />
+
+        <activity android:name=".activity.MenuActivity"
+            android:label="Select From Menu"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.TimeLineActivity"
+            android:screenOrientation="portrait"
+            android:label="Tweets"
+            />
+        <activity android:name=".activity.FollowersActivity"
+            android:screenOrientation="portrait"
+            android:label="My Followers"
+            />
+    </application>
+
+</manifest>
